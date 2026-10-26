@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local databases
+*.sqlite3
+*.db
+/models/rul_random_forest_capped.joblib
